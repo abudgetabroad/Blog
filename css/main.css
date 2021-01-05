@@ -90,15 +90,42 @@ textarea {
 body {
      background-color: #eee;
      color:#222;
+     font-size: 24px;
 }
 
 section {
+  margin-top: 4rem;
   margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section.dark {
+  background-color: #222;
+  color: #eee;
 }
 
 .section-container {
   max-width: 1920px;
+  min-width: 300px;
+  width: 70%;
   margin: 0px auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+  content: "~";
+  display: block;
+  transform: translate(-2rem, 100%);
+  color: darkred;
+}
+
+p, ol, ul {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ==========================================================================
