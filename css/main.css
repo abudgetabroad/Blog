@@ -87,6 +87,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     background-color: #eee;
+     color:#222;
+   }
+
+
+   section {
+     margin-bottom: 4rem;
+   }
+
+.section-container {
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
